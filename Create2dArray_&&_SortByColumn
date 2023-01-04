@@ -47,7 +47,7 @@ public class Main {
 
 
         // create a 2d array with random values
-        int arr[][] = create2dArray(3,3);
+        int arr[][] = create2dArray(numOfRows,numOfColumns);
 
         System.out.println("Enter column number to sort: ( 1 based indexing )");
         int columnNumber = sc.nextInt();
